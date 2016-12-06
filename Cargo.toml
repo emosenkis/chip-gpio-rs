@@ -1,0 +1,14 @@
+[package]
+name = "chip-gpio"
+version = "0.1.0"
+authors = ["Eitan Mosenkis <eitan@mosenkis.net>"]
+description = "Access NTC CHIP GPIO pins by name"
+repository = "https://github.com/emosenkis/chip-gpio-rs"
+documentation = "https://docs.rs/chip-gpio"
+keywords = ["gpio", "chip"]
+license = "MIT"
+
+[dependencies]
+glob = "0.2"
+lazy_static = "0.2"
+sysfs_gpio = "0.4"
