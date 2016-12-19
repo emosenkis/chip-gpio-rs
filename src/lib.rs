@@ -10,6 +10,7 @@ use std::io::prelude::*;
 use glob::glob;
 use sysfs_gpio::Pin;
 
+/// CHIP GPIO pins by name
 #[allow(non_camel_case_types)]
 #[derive(Eq,PartialEq,Debug,Copy,Clone)]
 pub enum ChipPin {
